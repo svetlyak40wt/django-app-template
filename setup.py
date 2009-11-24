@@ -2,12 +2,9 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
-from django_app_template import __version__ as version
-
 setup(
     name = 'django-app-template',
-    version = version,
+    version = '0.1.0',
     description = '''Template for my django applications.''',
     keywords = 'django apps',
     license = 'New BSD License',
