@@ -5,4 +5,4 @@ register = template.Library()
 
 @register.inclusion_tag('app_template/message.html')
 def counter(object):
-    return dict('settings': settings)
+    return dict(settings=settings)
