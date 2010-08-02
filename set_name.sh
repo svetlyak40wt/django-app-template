@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROJECT=$1
-LOWER_PROJECT=${PROJECT/-/_}
+LOWER_PROJECT=${PROJECT//-/_}
 
 find . \
     \( -not \( -path './parts/*' -or -path './bin/*' -or -path './develop-eggs/*' \) \) -and \
